@@ -1,0 +1,46 @@
+.about__frame {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.about__frame-img {
+  padding-top: 81px;
+}
+.about__frame-maintitle {
+  margin: 0 auto;
+  padding-top: 83px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1199px) {
+  .about__frame-maintitle {
+    font-weight: 500;
+    font-size: 32px;
+    padding-top: 55px;
+  }
+}
+.about__frame-text {
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1199px) {
+  .about__frame-text {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+.about__frame p {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 147.3%;
+  margin: 0;
+}
+@media screen and (max-width: 1199px) {
+  .about__frame p {
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
