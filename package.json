@@ -26,17 +26,17 @@
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "web-vitals": "^1.1.0",
-    "webpack": "^4.31.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.3.1"
-    
+    "webpack-dev-server": "^3.11.0"
   },
   "proxy": "http://localhost:8080",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node -r ./src/server/server.js"
   },
   "eslintConfig": {
     "extends": [
